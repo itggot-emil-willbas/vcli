@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <!-- <router-view/> -->
+    <router-view/>
     <HelloWorld></HelloWorld>
     <EmilHeader></EmilHeader>
     <EmilMain></EmilMain>
     <EmilFooter></EmilFooter>
+    <a href="#/firstRoute">To routerWorld</a>
+    <a href="/">Bring me home!</a>
   </div>
 </template>
 
@@ -14,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import EmilHeader from './components/EmilHeader.vue'
 import EmilMain from './components/EmilMain.vue'
 import EmilFooter from './components/EmilFooter.vue'
+// import routes from './router/index.js'
 
 export default {
   name: 'App',
