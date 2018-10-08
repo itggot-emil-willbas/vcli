@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'RouteWorld',
+  name: 'Shop',
   data () {
     return {
-      msg: 'Welcome To RouteWorld!'
+      msg: 'This is the shop'
     }
   }
 }
@@ -18,8 +18,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
+  color:yellow;
   font-weight: normal;
-  color:red;
 }
 ul {
   list-style-type: none;

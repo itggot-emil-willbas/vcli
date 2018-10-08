@@ -1,13 +1,17 @@
 <template>
   <div id="app">
+    <router-link to="/">Home</router-link>
+    <router-link to="firstRoute">RouterWorld</router-link>
+    <router-link to="SHop">Shop</router-link>
+    <br>
     <img src="./assets/logo.png">
     <router-view/>
     <HelloWorld></HelloWorld>
     <EmilHeader></EmilHeader>
     <EmilMain></EmilMain>
     <EmilFooter></EmilFooter>
-    <a href="#/firstRoute">To routerWorld</a>
-    <a href="/">Bring me home!</a>
+    <!-- <a href="#/firstRoute">To routerWorld</a>
+    <a href="/">Bring me home!</a> -->
   </div>
 </template>
 
